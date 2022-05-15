@@ -1,4 +1,4 @@
-//  operators addtion subration multiplication ddivision basics
+//  operators addtion subration multiplication division basics
 // addition
 #include<iostream>
 #include<cmath>
