@@ -4,8 +4,7 @@
 using namespace std;
 int main()
 {
-float c;
-float convert;
+float c,convert;
 cout<<endl<<"enter the celcious of temperatur here : ";
 cin>>c;
 convert = (c * 1.8 ) +32;
