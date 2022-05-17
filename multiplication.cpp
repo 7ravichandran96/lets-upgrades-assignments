@@ -5,8 +5,7 @@
 using namespace std;
 int main()
 {
-  int a,b;
-  int multi;
+  int a,b,multi;
   cout<<endl<<"enter the value of a : ";
   cin>>a;
   cout<<endl<<"enter the value of b : ";
