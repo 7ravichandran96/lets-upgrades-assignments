@@ -4,23 +4,41 @@ using namespace std;
 int main()
 {
     int a,b,c;
-    cout<<endl<<"enter three random numbers : ";
-    cin>>a >>b >>c;
-    if (a>=b && a>=c)
+    cout<<endl<<"enter a random numbers : ";
+    cin>>a;
+    cout<<endl<<"enter b random numbers : ";
+    cin>>b;
+    cout<<endl<<"enter c random numbers : ";
+    cin>>c;
+    if (a>b)
     {
-        cout<<endl<<"highest number = "<<a;
+        if (a>c)
+        {
+            cout<<endl<<a<<" is larger number between three numbers "; 
+        }
+       
     }
-    if (b>=a && b>=c)
+    if (b>a)
     {
-        cout<<endl<<"highest number = "<<b;
-
+        if (b>c)
+        {
+            cout<<endl<<b<<" is larger number between three numbers "; 
+        }
+       
     }
-    if (c>=a && c>=b)
+    if (c>b)
     {
-        cout<<endl<<"highest number = "<<c;
-
+        if (c>a)
+        {
+            cout<<endl<<c<<" is larger number between three numbers "; 
+        }
+       
+       
     }
-
+    if (a==b==c==a)
+    {
+       cout<<endl<<"enterd three random numbers are in equal number";
+    } 
     return 0;
     
 };
