@@ -15,7 +15,7 @@ int main()
         cout<<endl<<"data enterd "<<length<<" and "<<breadth<<" are SQUARE";
         
     }
-    if
+    else
     {
        cout<<endl<<"data enterd "<<length<<" and "<<breadth<<" are NOT A SQUARE ";
 
