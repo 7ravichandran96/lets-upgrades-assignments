@@ -8,7 +8,11 @@ int main()
     cout<<endl<<" To Check Wether the entered  character is vowel or consonent";
     cin>>vowel;
 
-    if (vowel == 'a' || vowel == 'A' || vowel == 'e' || vowel =='E' || vowel == 'i' || vowel == 'I' || vowel == 'o' ||vowel == 'O' || vowel == 'u' || vowel == 'U' )
+    if (vowel == 'a' || vowel == 'A' 
+        || vowel == 'e' || vowel =='E' 
+        || vowel == 'i' || vowel == 'I'
+        || vowel == 'o' ||vowel == 'O' 
+        || vowel == 'u' || vowel == 'U' )
     {
         cout<<endl<<vowel<<" you had entered the vowel in alphabets";
     }else
