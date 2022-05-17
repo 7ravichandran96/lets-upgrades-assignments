@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    float length,breadth,square,notSquare;
+    float length,breadth;
     
     cout<<endl<<"enter the value of length = ";
     cin>>length;
