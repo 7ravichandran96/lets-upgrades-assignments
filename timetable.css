@@ -1,0 +1,49 @@
+*{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+table,th,tr,td{
+    border:3px ridge rgb(247, 231, 11);
+    border-collapse:collapse ;
+    padding: 15px;
+
+    
+}
+body{
+    background-color: aqua;
+}
+
+.color1{
+    background-color: #fff;
+    color: red;
+    opacity: 1;
+    transition: 1.5s;
+    direction: ltr;
+}
+.color1:hover 
+{
+    background-color: crimson;
+    opacity: 0.7;
+    transition: 2.5s;
+    direction: rtl;
+    color: aqua;
+    
+}
+.color{
+    background-color: rgb(149, 171, 243);
+    opacity: 0.7;
+    transition: 2.5s;
+    direction: rtl;
+    color: rgb(7, 7, 7);
+}
+.color:hover{
+    background-color: rgb(3, 3, 3);
+    opacity: 1;
+    transition: 1.5s;
+    direction: ltr;
+    color: rgb(149, 171, 243);
+   
+}
